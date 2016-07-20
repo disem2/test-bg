@@ -1,0 +1,10 @@
+<div class="Article">
+    <span class="edit-btn" ng-click="vm.edit()" ng-show="!vm.isEditMode">&#9997;</span>
+    <h3 class="title" ng-show="!vm.isEditMode">{{ vm.article.title }}</h3>
+    <p class="text" ng-show="!vm.isEditMode">{{ vm.article.body }}</p>
+    <form ng-show="vm.isEditMode" name="vm.editForm">
+        <input type="text" required english ng-model="vm.article.title">
+        <textarea required english ng-model="vm.article.body"></textarea>
+        <button ng-click="vm.save()">Save</button>
+    </form>
+</div>

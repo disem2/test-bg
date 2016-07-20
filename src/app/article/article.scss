@@ -1,0 +1,43 @@
+.Article {
+  position: relative;
+  border: 1px solid #000;
+  width: 90%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+
+  .edit-btn {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+  }
+  h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .text {
+    margin-top: 15px;
+  }
+  input {
+    width: 90%;
+    padding: 2px 10px;
+    font-size: 18px;
+  }
+  textarea {
+    resize: none;
+    width: 90% !important;
+    height: 200px;
+    margin-top: 15px;
+    padding: 2px 10px;
+    font-size: 16px;
+  }
+  input.ng-invalid, textarea.ng-invalid {
+    border: 2px solid red;
+  }
+}

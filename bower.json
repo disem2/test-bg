@@ -1,0 +1,21 @@
+{
+  "name": "test-bg",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Dmitriy Semenov <disem2@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.7"
+  }
+}

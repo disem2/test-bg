@@ -1,0 +1,7 @@
+<div class="Articles">
+    <h2>Articles</h2>
+    <ul class="article-links">
+        <li ng-repeat="article in vm.articlesList" ng-click="vm.openArticle(article.id)">{{ article.name }}</li>
+    </ul>
+    <div ui-view></div>
+</div>
